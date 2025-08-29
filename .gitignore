@@ -12,3 +12,6 @@ node_modules
 
 # ignore .vscode
 .vscode
+
+# firebase admin. json file
+slot-booking-app-32275-firebase-adminsdk-fbsvc-63f4ff9048.json

@@ -25,6 +25,8 @@ export const BookingController = {
   async bookSlot(req, res, next) {
     try {
       const { date, time } = req.body;
+      console.log({date, time});
+      
 
       if (!date || !time) {
         return res.status(400).json({ success: false, message: "Date and time are required" });
